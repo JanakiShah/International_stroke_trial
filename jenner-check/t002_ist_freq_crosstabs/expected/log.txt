@@ -1,0 +1,44 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA dIST
+
+NOTE: Processing inline DATALINES (24 lines)
+
+NOTE: Read 24 rows from DATALINES.
+NOTE: Wrote dIST (24 rows, 32 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT stroke_typef defined (2 ranges).
+NOTE: FORMAT FDEADCf defined (2 ranges).
+NOTE: FORMAT DDEADCf defined (2 ranges).
+NOTE: DATA ist_new
+
+
+NOTE: Read 24 rows from dIST.
+NOTE: Wrote ist_new (24 rows, 33 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA istclean
+
+
+NOTE: Read 24 rows from ist_new.
+NOTE: Wrote istclean (24 rows, 36 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=istclean
+
+NOTE: Read 24 rows from istclean.
+NOTE: Wrote istclean (24 rows, 36 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: PROC FREQ statement used.

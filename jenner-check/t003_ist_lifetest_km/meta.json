@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_ist_lifetest_km",
+  "source_file": "SASscript.sas",
+  "source_blob_sha": "351cd826c49e4159847925c1d67f0f2140961201",
+  "source_commit": "e390ff097cb6c47cd20ebb8e9bf9604c335281c4",
+  "notes": "PROC LIFETEST Kaplan-Meier survival curves at 6 months and 14 days, stratified by cause of death (ischemic vs hemorrhagic) -- same two PROC LIFETEST calls as the repo's Step 4. Same inline DATALINES substitution as t001."
+}

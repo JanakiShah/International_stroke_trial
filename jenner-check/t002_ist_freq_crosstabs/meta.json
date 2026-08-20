@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_ist_freq_crosstabs",
+  "source_file": "SASscript.sas",
+  "source_blob_sha": "351cd826c49e4159847925c1d67f0f2140961201",
+  "source_commit": "e390ff097cb6c47cd20ebb8e9bf9604c335281c4",
+  "notes": "PROC FREQ cross-tabulations by stroke_type with odds ratios and confidence limits, plus DRSISC/DRSH frequency and cross-tab with FDEADC -- same PROC FREQ block as the repo's Step 3. Same inline DATALINES substitution as t001."
+}

@@ -1,0 +1,67 @@
+                  The PHREG Procedure                   
+                   Model Information                    
+
+Data Set            WORK.ISTCLEAN                       
+Dependent Variable  FDEADD         Follow-up time (days)
+Censoring Variable  dead                                
+Censoring Value(s)  0                                   
+Ties Handling       EFRON                               
+
+Number of Observations Read        24
+Number of Observations Used        24
+
+         Class Level Information         
+
+                        Design Variables
+Class        Value                       
+-----------  --------  --------  --------
+RXASP        N                1          
+             Y                0          
+RSLEEP       N                0          
+             Y                1          
+RCT          N                1          
+             Y                0          
+RATRIAL      N                0          
+             Y                1          
+RVISINF      N                0          
+             Y                1          
+RCONSC       D                1         0
+             F                0         0
+             U                0         1
+SEX          F                0          
+             M                1          
+stroke_type  1                1          
+             2                0          
+
+Summary of the Number of Event and Censored Values
+
+   Total     Event  Censored  Percent Censored
+--------  --------  --------  ----------------
+      24        11        13             54.17
+
+             Convergence Status              
+
+Convergence criterion (GCONV=1E-8) satisfied.
+
+             Model Fit Statistics             
+
+Criterion  Without Covariates  With Covariates
+---------  ------------------  ---------------
+-2 LOG L               33.947           33.947
+AIC                    33.947           33.947
+SBC                    33.947           33.947
+
+                                           Analysis of Maximum Likelihood Estimates                                           
+
+Parameter                    DF  Estimate  Standard Error  Chi-Square  Pr > ChiSq  Hazard Ratio  95% Lower CL     95% Upper CL
+-----------  --------  --------  --------  --------------  ----------  ----------  ------------  ------------  ---------------
+stroke_type  1                1   0.00000        12.81740      0.0000      1.0000         1.000         0.000  81318566558.545
+RXASP        N                1  -1.37738         1.11825      1.5172      0.2180         0.252         0.028            2.258
+RATRIAL      Y                1   0.02268         1.01691      0.0005      0.9822         1.023         0.139            7.507
+RVISINF      Y                1   2.97111         1.04793      8.0385      0.0046        19.514         2.502          152.173
+RCONSC       D                1   1.30879         1.20070      1.1881      0.2757         3.702         0.352           38.944
+RCONSC       U                1  -0.06095         1.31732      0.0021      0.9631         0.941         0.071           12.440
+RSLEEP       Y                1   1.78185         0.97588      3.3339      0.0679         5.941         0.877           40.227
+SEX          M                1  -0.56597         1.03204      0.3007      0.5834         0.568         0.075            4.292
+AGE                           1   0.02808         0.03371      0.6938      0.4049         1.028         0.963            1.099
+

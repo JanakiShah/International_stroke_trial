@@ -1,0 +1,18 @@
+{
+  "_captured_at": "2026-08-20T07:27:00Z",
+  "_captured_run_id": "r_df21824bf775450a9ff9405fafbb737d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote istclean (24 rows, 36 columns).",
+    "NOTE: PROC PHREG using Python wrapper"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

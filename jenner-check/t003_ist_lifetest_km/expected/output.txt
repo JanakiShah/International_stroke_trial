@@ -1,0 +1,80 @@
+The LIFETEST Procedure
+
+
+       Summary of the Number of Censored and Uncensored Values       
+
+ Stratum  FDEADC          Total    Failed  Censored  Percent Censored
+--------  -----------  --------  --------  --------  ----------------
+       1  hemorrhagic        10         4         6             60.00
+       2  ischemic           14         7         7             50.00
+   Total                     24        11        13             54.17
+
+        Rank Statistics        
+
+FDEADC       Log-Rank  Wilcoxon
+-----------  --------  --------
+hemorrhagic   -0.9873  -22.0000
+ischemic       0.9873   22.0000
+
+Covariance Matrix for the Log-Rank Statistics
+
+FDEADC       hemorrhagic  ischemic
+-----------  -----------  --------
+hemorrhagic       2.7178   -2.7178
+ischemic         -2.7178    2.7178
+
+Covariance Matrix for the Wilcoxon Statistics
+
+FDEADC       hemorrhagic    ischemic
+-----------  -----------  ----------
+hemorrhagic    1006.0000  -1006.0000
+ischemic      -1006.0000   1006.0000
+
+          Test of Equality over Strata          
+
+Test       Chi-Square        DF  Pr > Chi-Square
+---------  ----------  --------  ---------------
+Log-Rank       0.3587         1           0.5492
+Wilcoxon       0.4811         1           0.4879
+-2Log(LR)      0.3207         1           0.5712
+
+The LIFETEST Procedure
+
+
+       Summary of the Number of Censored and Uncensored Values       
+
+ Stratum  DDEADC          Total    Failed  Censored  Percent Censored
+--------  -----------  --------  --------  --------  ----------------
+       1  hemorrhagic        10         2         8             80.00
+       2  ischemic           14         4        10             71.43
+   Total                     24         6        18             75.00
+
+        Rank Statistics        
+
+DDEADC       Log-Rank  Wilcoxon
+-----------  --------  --------
+hemorrhagic   -0.4456   -8.0000
+ischemic       0.4456    8.0000
+
+Covariance Matrix for the Log-Rank Statistics
+
+DDEADC       hemorrhagic  ischemic
+-----------  -----------  --------
+hemorrhagic       1.4226   -1.4226
+ischemic         -1.4226    1.4226
+
+Covariance Matrix for the Wilcoxon Statistics
+
+DDEADC       hemorrhagic   ischemic
+-----------  -----------  ---------
+hemorrhagic     672.8947  -672.8947
+ischemic       -672.8947   672.8947
+
+          Test of Equality over Strata          
+
+Test       Chi-Square        DF  Pr > Chi-Square
+---------  ----------  --------  ---------------
+Log-Rank       0.1396         1           0.7087
+Wilcoxon       0.0951         1           0.7578
+-2Log(LR)      0.1476         1           0.7008
+

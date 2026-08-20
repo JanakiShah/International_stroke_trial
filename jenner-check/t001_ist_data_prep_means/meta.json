@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_ist_data_prep_means",
+  "source_file": "SASscript.sas",
+  "source_blob_sha": "351cd826c49e4159847925c1d67f0f2140961201",
+  "source_commit": "e390ff097cb6c47cd20ebb8e9bf9604c335281c4",
+  "notes": "Data-load + descriptive stats (PROC MEANS by stroke_type). Source PROC IMPORT (reads /home/u62275281/ILE/DataIST.csv) replaced with an inline DATALINES block of 24 IST-shaped mock rows; downstream data-cleaning and PROC MEANS logic is byte-identical to the repo's Step 1-3."
+}
