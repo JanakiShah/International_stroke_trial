@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_ist_phreg_cox",
+  "source_file": "SASscript.sas",
+  "source_blob_sha": "351cd826c49e4159847925c1d67f0f2140961201",
+  "source_commit": "e390ff097cb6c47cd20ebb8e9bf9604c335281c4",
+  "notes": "PROC PHREG Cox proportional hazards regression (first model in the repo's Step 5), stratified by FDEADC, with hazard ratio for stroke_type. ties=efron substituted for the source's ties=exact -- Jenner does not yet accept TIES=EXACT (a documented SAS 9.4 PHREG option); see internal notes, not part of the PR body. Same inline DATALINES substitution as t001."
+}
